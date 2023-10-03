@@ -29,6 +29,7 @@
     align-items: flex-end;
     width: 100%;
     padding: 30px;
+    top: -5%;
   }
 
   .botoes .botao img {
@@ -36,7 +37,7 @@
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 415px) {
   main .personagem .imagem {
     height: auto;
     object-fit: cover;
@@ -57,7 +58,7 @@
 
   .botoes {
     padding: 20px;
-    top: -5%;
+    top: -10%;
   }
 
   .botoes .botao img {
@@ -65,8 +66,13 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 391px) {
   .conteudo {
-    top: -15%;
+    top: -17%;
+    font-size: 12px;
+  }
+
+  .botoes {
+    top: -7%;
   }
 }
